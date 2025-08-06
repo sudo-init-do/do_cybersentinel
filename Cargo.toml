@@ -1,0 +1,14 @@
+[package]
+name = "cybersentinel"
+version = "0.1.0"
+edition = "2021"
+authors = ["Oyeyemi Obaloluwa <your_email@example.com>"]
+description = "A real-time network traffic monitor and anomaly detector in Rust"
+license = "MIT"
+repository = "https://github.com/sudo-init-do/cybersentinel"
+
+[dependencies]
+pcap = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
