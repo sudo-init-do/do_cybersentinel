@@ -5,10 +5,13 @@ edition = "2021"
 authors = ["Oyeyemi Obaloluwa <your_email@example.com>"]
 description = "A real-time network traffic monitor and anomaly detector in Rust"
 license = "MIT"
-repository = "https://github.com/sudo-init-do/cybersentinel"
+repository = "https://github.com/sudo-init-do/do_cybersentinel"
 
 [dependencies]
 pcap = "1.1"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 chrono = "0.4"
+once_cell = "1.19.0"
+ratatui = "0.26.3"
+crossterm = "0.27.0"

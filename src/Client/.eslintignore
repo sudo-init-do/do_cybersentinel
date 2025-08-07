@@ -1,0 +1,20 @@
+# Ignore CSS files from ESLint
+*.css
+*.scss
+*.sass
+
+# Ignore config files
+next.config.js
+tailwind.config.js
+postcss.config.js
+
+# Ignore build output
+.next/
+out/
+build/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore env files
+.env*
